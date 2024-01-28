@@ -1,0 +1,34 @@
+.butt {
+    color: rgb(31, 147, 128);
+    background-color:lightgrey  ;
+    border-radius: 50px;
+    border: 2px solid rgb(31, 147, 128);
+    font-size: 20px;
+    width: 125px;
+
+}
+
+.round {
+    border-radius: 50px;
+    background-color:rgb(58, 179, 171)  ;
+    color: white;
+    border: 2px solid white ;
+    width: 35px;
+    height: 35px;
+
+}
+
+.shaddow {
+    box-shadow: 12px 12px 2px 1px rgba(0, 0, 0, 0.2);
+    background-color:rgb(14, 11, 238)  ;
+    color: white;
+    width: 135px;
+    height: 35px;
+
+}
+
+
+
+
+
+
