@@ -1,0 +1,72 @@
+* {
+    a:link,a:active,a:hover,a:visited {
+        background-color: rgb(46, 45, 45);
+        color: white;
+        font-family: "Roboto";
+}
+
+.nav-title{
+    background-color: rgb(46, 45, 45);
+    color: whitesmoke ;
+    font-family: "Roboto";
+    font-weight: 100;
+    align-items: center;
+    padding: 8px;
+    justify-content:left;
+}
+.nav-links{ 
+    display: flex;
+    align-items: center;
+    list-style: none;
+    justify-content:flex-end;
+    margin: 20px;
+    width: auto;
+}
+.btn {
+    box-shadow: 12px 12px 2px 1px rgba(0, 0, 0, 0.2);
+    background-color:rgb(16, 136, 154)  ;
+    color: white;
+    width: 70px;
+    height: 25px;
+}
+.Home {
+    font-family: "Roboto";
+    font-size: 15px;
+    margin: 15px;
+    a:link {
+        color: white;
+      }
+}
+.MyProfile {
+    font-family: "Roboto";
+    font-size: 15px;
+    margin: 15px;
+    color: white;
+    a:link {
+        color: white;
+      }
+}
+.Find {
+    font-family: "Roboto";
+    font-size: 15px;
+    margin: 15px;
+    color: white;
+    a:link {
+        color: white;
+      }
+}
+.nav {
+    background-color: rgb(46, 45, 45);
+    display: flex;
+    width: auto;
+    height: 65px;
+    align-items: center;
+    justify-content:space-between;
+    a:link {
+        color: white;
+      }
+}
+
+
+
+
