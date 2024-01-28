@@ -1,0 +1,54 @@
+.container{
+    width: 650px;
+    height: 310px;
+    background-color: white;
+    margin: 0px auto;
+    padding: 0px;
+    border: 2px solid silver;
+}
+.top-nav{
+    height: 100px;
+    background-color: rgb(49, 149, 176);
+    position: relative;
+}
+.box{
+    position: fixed;
+    top:145px;
+    padding: 10px;
+}
+.face{
+    position: fixed;
+    top:60px;
+    img {
+    border-radius:50px;
+    width: 85px;
+    height: 85px;
+    border: 2px solid silver;
+    }
+}
+.name {
+    font-size: 25px;
+    margin: 2px;
+}
+.needle{
+    img {
+    width: 12px;
+    height: 19px;
+    margin: 3px;
+    }
+}
+.desc{
+    margin: 3px;
+    p {
+    margin: 0px;
+    padding: 0px;
+    }
+}
+.gear{
+    img {
+    width: 20px;
+    height: 20px;
+    margin: 3px;    
+    }
+    text-decoration: underline;
+}
