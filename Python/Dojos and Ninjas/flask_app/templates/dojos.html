@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <title>Dojos</title>
+</head>
+
+<body>
+    <div class="d-flex flex-wrap justify-content-around">
+        <form action="/create/dojo" method="post" class="col-6 p-3 bg-dark text-light">
+            <h2 class="text-center text-warning">New Dojo</h2>
+            <div class="form-group">
+                <label for="tite">Name:</label>
+                <input type="text" name="title" class="form-control">
+            </div>
+
+            <input type="submit" value="Create" class="btn btn-warning">
+        </form>
+        <div class="card col-6">
+            <div class="card-body">
+                <h2 class="card-title">All Dojos</h2>
+                {% for one_dojo in all_dojos %}
+                    <p class="card-text"><a href="/dojo/{{one_dojo.id}}">{{one_dojo.name}}</a></p>
+                {% endfor %}
+            </div>
+            <div class="card-footer">
+                <a href="/">Home</a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

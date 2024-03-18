@@ -1,0 +1,56 @@
+/* *{
+    padding: 0;
+    margin: 0;
+    vertical-align: top;
+    box-sizing: border-box;
+    
+} */
+
+/* h1{
+    background-color:gray;
+    color: rgb(199, 199, 52);
+    padding: 10px;
+    display: inline-block;
+
+} */
+
+th{
+    background-color:gray;
+    color: rgb(199, 199, 52);
+
+}
+
+
+#center{
+    border: 2px solid;
+    position: absolute;
+    /* top: 50%; */
+    left: 50%;
+    padding: 6px;
+
+}
+
+td{
+    padding: 5px;
+    margin: 5px;
+
+}
+
+p{
+    background-color: rgba(0, 0, 0, 0.2);
+    color: black;
+    padding: 10px;
+    display: inline-block;
+}
+
+.shaddow {
+    box-shadow: 12px 12px 2px 1px rgba(0, 0, 0, 0.2);
+    background-color:rgb(14, 11, 238)  ;
+    color: white;
+    width: 135px;
+    height: 35px;
+}
+
+a{
+    color: white;
+}
